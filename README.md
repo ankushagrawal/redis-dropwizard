@@ -1,5 +1,5 @@
 # redis-dropwizard
-Basic application to post a key to redis and set its expiry time.
+Sample redis dropwizard application using maven. Application to post a key in redis and set its expiry time.
 Whenever key gets expired, subscriber listens and performs basic business functions.
 
 # Steps to run:
