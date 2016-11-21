@@ -8,6 +8,7 @@ Whenever key gets expired, subscriber listens and performs basic business functi
     cd redis-dropwizard
     mvn package
     java -jar target/redis-dropwizard-1.0-SNAPSHOT.jar server src/main/resources/local/application.yml
+    Sample curl command: curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"key":"key1","expiry":10,"value":"value1"}' http://localhost:8080/redis/post/
 3. Or Run TestJedis.java
 
 # Pre-requisites:
